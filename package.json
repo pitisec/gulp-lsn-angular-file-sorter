@@ -3,9 +3,6 @@
   "version": "0.0.3",
   "description": "Sortowanie plików angulara przy wstrzykiwaniu do index",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha -R spec test/*_test.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pitisec/gulp-lsn-angular-file-sorter.git"
