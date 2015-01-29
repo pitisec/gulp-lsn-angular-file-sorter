@@ -1,0 +1,35 @@
+{
+  "name": "gulp-lsn-angular-file-sorter",
+  "version": "0.0.1",
+  "description": "Sortowanie plików angulara przy wstrzykiwaniu do index",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pitisec/gulp-lsn-angular-file-sorter.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "angularjs",
+    "fileorder",
+    "modules"
+  ],
+  "author": "Piotr Pawelec <pitisec@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pitisec/gulp-lsn-angular-file-sorter/issues"
+  },
+  "homepage": "https://github.com/pitisec/gulp-lsn-angular-file-sorter",
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "event-stream": "^3.1.1",
+    "ng-dependencies": "~0.1.1",
+    "toposort": "~0.2.10"
+  }
+}
