@@ -1,6 +1,6 @@
 {
   "name": "gulp-lsn-angular-file-sorter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sortowanie plików angulara przy wstrzykiwaniu do index",
   "main": "index.js",
   "scripts": {

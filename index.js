@@ -7,7 +7,7 @@ var PluginError = gutil.PluginError;
 var PLUGIN_NAME = 'gulp-lsn-angular-file-sorter';
 var ANGULAR_MODULE = 'ng';
 
-module.exports = function angularFilesort () {
+module.exports = function lsnAngularFileSorter () {
   var files = [];
   var angmods = {};
   var toSort = [];
