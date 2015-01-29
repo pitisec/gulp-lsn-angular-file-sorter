@@ -61,7 +61,7 @@ describe('gulp-angular-filesort', function () {
     ];
 
     sort(files, function (resultFiles) {
-      resultFiles.length.should.equal(7);
+      resultFiles.length.should.equal(8);
       resultFiles.indexOf('fixtures/module-controller.js').should.be.above(resultFiles.indexOf('fixtures/module.js'));
       resultFiles.indexOf('fixtures/yet-another.js').should.be.above(resultFiles.indexOf('fixtures/another.js'));
       resultFiles.indexOf('fixtures/another-factory.js').should.be.above(resultFiles.indexOf('fixtures/another.js'));
